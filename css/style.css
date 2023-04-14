@@ -1,0 +1,502 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Fuente Local */
+@font-face {
+    font-family: "Caveat";
+    src: url(../recursos/tipografia/Caveat/Caveat-VariableFont_wght.ttf);
+}
+
+
+/* Fuente externa */
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:ital@1&display=swap');
+
+
+/* header index  */
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    /* height: 10vh; */
+    background-color: white;
+    position: sticky;
+    z-index: 5000;
+    top: 0;
+    border-bottom: 3px solid #512421;
+}
+
+.logo a img {
+    width: 60px;
+    margin: 10px;
+}
+
+.color-nav {
+    background-color: white !important;
+}
+
+.bus-color {
+    color: #512421;
+    border-color: #512421;
+}
+
+.bus-color:hover {
+    background-color: #512421 !important;
+    border-color: white !important;
+}
+
+/* main index */
+
+
+.carrusel {
+    width: 100vw;
+}
+
+.titulo-haras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #512421;
+    width: 100vw;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.titulo-haras h1 {
+    font-size: 45px;
+    font-family: 'Noticia Text', serif;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Caveat";
+    font-style: italic;
+    text-align: center;
+    font-size: 33px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+.parrafo-inicio p {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Noticia Text', serif;
+}
+
+
+/* footer */
+footer {
+    background-color: white;
+    width: 100vw;
+    border-top: 3px solid #512421;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+footer ul {
+    padding: 10px;
+}
+
+footer ul li {
+    text-align: center;
+    color: black;
+    list-style: none;
+    font-family: 'Noticia Text', serif;
+}
+
+footer div a img {
+    width: 20px;
+}
+
+
+
+/* MAIN SECCION MADRES */
+
+.fondo-secciones-titulo {
+    font-size: 40px;
+    background-color: #512421;
+    width: 100vw;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Noticia Text', serif;
+}
+
+.negrita {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Noticia Text', serif;
+}
+
+.negrita-hijos {
+    font-weight: bolder;
+}
+
+/* madres grid */
+.grid-madres {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "dashin-img dashin-tb"
+        "ava-tb ava-img"
+        "fell-img fell-tb"
+        "hempen-tb hempen-img"
+        "creme-img creme-tb";
+}
+
+.dashin-img {
+    grid-area: dashin-img;
+    margin: auto;
+}
+
+.dashin-tb {
+    grid-area: dashin-tb;
+    background-color: whitesmoke;
+    height: 50rem;
+    text-align: left;
+    font-family: 'Noticia Text', serif;
+    padding: 40px;
+    margin: auto;
+}
+
+.ava-tb {
+    grid-area: ava-tb;
+    background-color: whitesmoke;
+    height: 50rem;
+    text-align: left;
+    font-family: 'Noticia Text', serif;
+    padding: 40px;
+    margin: auto;
+}
+
+.ava-img {
+    grid-area: ava-img;
+    margin: auto;
+}
+
+.fell-img {
+    grid-area: fell-img;
+    margin: auto;
+}
+
+.fell-tb {
+    grid-area: fell-tb;
+    background-color: whitesmoke;
+    height: 50rem;
+    text-align: left;
+    font-family: 'Noticia Text', serif;
+    padding: 120px 40px 0 40px;
+    margin: auto;
+}
+
+.hempen-tb {
+    grid-area: hempen-tb;
+    background-color: whitesmoke;
+    height: 50rem;
+    text-align: left;
+    font-family: 'Noticia Text', serif;
+    padding: 120px 40px 0 40px;
+    margin: auto;
+}
+
+.hempen-img {
+    grid-area: hempen-img;
+    margin: auto;
+}
+
+.creme-img {
+    grid-area: creme-img;
+    margin: auto;
+}
+
+.creme-tb {
+    grid-area: creme-tb;
+    background-color: whitesmoke;
+    height: 50rem;
+    text-align: left;
+    font-family: 'Noticia Text', serif;
+    padding: 120px 40px 0 40px;
+    margin: auto;
+}
+
+/* Seccion titulo de madres, padrillos, potrillos e imagen */
+.nombres-imp h2,
+.titulo-padrillos {
+    text-align: center;
+    font-family: 'Noticia Text', serif;
+    font-size: 35px;
+}
+
+
+
+
+
+
+/* SECCION SEMENTALES */
+.flex-sementales {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+/* SECCION PRODUCTOS EN VENTA */
+.prod-venta {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "potrillo1 potrillo2 potrillo3"
+        "potrillo4 potrillo5 potrillo6";
+}
+
+.potrillo1 {
+    grid-area: potrillo1;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 1px black;
+}
+
+.potrillo2 {
+    grid-area: potrillo2;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 1px black;
+}
+
+.potrillo3 {
+    grid-area: potrillo3;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 1px black;
+}
+
+.potrillo4 {
+    grid-area: potrillo4;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 1px black;
+}
+
+.potrillo5 {
+    grid-area: potrillo5;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 1px black;
+}
+
+.potrillo6 {
+    grid-area: potrillo6;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 1px black;
+}
+
+.potrillo1,
+.potrillo2,
+.potrillo3,
+.potrillo4,
+.potrillo5,
+.potrillo6 {
+    overflow: hidden;
+}
+
+.flex-enlace {
+    display: flex;
+    justify-content: center;
+}
+
+/* SECCION CONTACTO */
+.fondo-contacto {
+    background-image: radial-gradient(rgb(255, 255, 255), #b8b8b8);
+    height: 70vh;
+}
+
+.fondo-contacto form {
+    height: 50vh;
+}
+
+.fondo-contacto iframe {
+    height: 20vh;
+    width: 100vw;
+}
+
+.input-cont {
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 20px;
+    height: 30px;
+    text-align: center;
+}
+
+
+.block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton {
+    border-radius: 10%;
+    padding: 3px;
+    background-color: white;
+}
+
+.boton:hover {
+    border-color: white;
+    color: white;
+    background-color: #512421;
+    border-radius: 10%;
+}
+
+.caja-mensaje {
+    height: 100px;
+    width: 700px;
+}
+
+.input-cont:focus {
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+.flex-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* MEDIA QUERY */
+/* Estrategia mobile last */
+
+@media (max-width:576px) {
+
+    /* footer */
+    .media-main {
+        height: 72vh;
+    }
+
+    footer {
+        height: 18vh;
+    }
+
+    footer ul li {
+        font-size: 13px;
+        margin: auto;
+    }
+
+
+    /* index */
+    .titulo-haras {
+        height: 80px;
+    }
+
+    .titulo-haras h1 {
+        font-size: 35px;
+        margin: 10px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    .parrafo-inicio p {
+        font-size: 17px;
+    }
+
+
+    /* Seccion padrillos */
+    .fondo-secciones-titulo {
+        height: 80px;
+        font-size: 35px;
+    }
+
+    .titulo-padrillos {
+        font-size: 30px;
+    }
+
+    .tamaño-padrillos {
+        width: 350px;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .video {
+        width: 250px;
+        height: 215px;
+        margin: auto;
+    }
+
+}
+
+/* Seccion madres */
+
+.grid-madres {
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-areas:
+        "dashin-img dashin-img"
+        "dashin-tb dashin-tb"
+        "ava-tb ava-tb"
+        "ava-img ava-img"
+        "fell-img fell-img"
+        "fell-tb fell-tb"
+        "hempen-tb hempen-tb"
+        "hempen-img hempen-img"
+        "creme-img creme-img"
+        "creme-tb creme-tb";
+
+}
+
+
+
+/* Seccion productos en venta */
+.prod-venta {
+    margin-left: 35px;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "potrillo1"
+        "potrillo2"
+        "potrillo3"
+        "potrillo4"
+        "potrillo5"
+        "potrillo6";
+}

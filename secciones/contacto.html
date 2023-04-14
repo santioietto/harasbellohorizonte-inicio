@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icono de pestaña -->
+    <link rel="shortcut icon" href="../recursos/imagenes/Logo.png">
+    <!-- Link de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--Link de css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header class="header">
+        <!-- Logo con direccion al index -->
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../recursos/imagenes/Logo.png" alt="Logo Haras">
+            </a>
+        </div>
+        <!-- Nav con bootstrap -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary color-nav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="../secciones/sementales.html">Sementales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../secciones/madres.html">Madres</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../secciones/productos-en-venta.html">Productos en venta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../secciones/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success bus-color" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Titulo principal de la seccion-->
+        <h1 class="fondo-secciones-titulo">CONTACTO</h1>
+        <div class="fondo-contacto">
+            <form action="#" method="get">
+                <!-- Flex en cajas de formularios -->
+                <div class="block">
+                    <input class="input-cont" type="text" placeholder="Nombre" name="nombre">
+
+                    <input class="input-cont" type="text" placeholder="Apellido" name="apellido">
+
+                    <input class="input-cont" type="number" placeholder="Telefono" name="telefono">
+                </div>
+                <!-- Flex para acomodar caja mensajes -->
+                <div class="block">
+                    <input class="input-cont caja-mensaje" type="text" placeholder="Mensaje" name="mensaje">
+                </div>
+                <!-- Flex para acomodar el boton enviar -->
+                <div class="block">
+                    <input class="boton" type="submit">
+                </div>
+            </form>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3476.6492419975657!2d-50.87859564533377!3d-29.380557818670063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95193250279b7717%3A0xbe10d73bd7130dbb!2sR.%20Pref.%20Nelson%20Dinnebier%2C%20412%20-%20Centro%2C%20Gramado%20-%20RS%2C%2095670-000%2C%20Brasil!5e0!3m2!1ses-419!2sar!4v1679156766461!5m2!1ses-419!2sar"
+                width="1220" height="220" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Informacion de contacto -->
+        <div>
+            <ul>
+                <li>harasbellohorizonte@gmail.com</li>
+                <li>(470) 369-8574 </li>
+                <li>601 South 6666 Road Guthrie, Texas 79236</li>
+            </ul>
+        </div>
+        <!-- Redes sociales, solo logo con re direccion -->
+        <div>
+            <a href="#"><img src="../recursos/imagenes/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="../recursos/imagenes/instagram (1).png" alt="Instagram"></a>
+        </div>
+    </footer>
+
+    <!-- link bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

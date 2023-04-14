@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icono de pestaña -->
+    <link rel="shorcut icon" href="./recursos/imagenes/Logo.png">
+    <!-- Link de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- Link animated css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!--Link de css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Haras Bello Horizonte</title>
+</head>
+
+<body>
+    <header class="header">
+        <!-- Logo con direccion al index -->
+        <div class="logo">
+            <a href="./index.html">
+                <img src="./recursos/imagenes/Logo.png" alt="Logo Haras">
+            </a>
+        </div>
+        <!-- Nav con bootstrap -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary color-nav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="./secciones/sementales.html">Sementales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./secciones/madres.html">Madres</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./secciones/productos-en-venta.html">Productos en venta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./secciones/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <!-- Agregue clase para cambiar el fondo del boton -->
+                        <button class="btn btn-outline-success bus-color" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="media-main">
+        <!-- Carrusel con bootstrap -->
+        <div id="carouselExampleAutoplaying" class="carousel slide carrusel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./recursos/imagenes/header-potros.jpg" class="d-block w-100" alt="potrillos">
+                </div>
+                <div class="carousel-item">
+                    <img src="./recursos/imagenes/portada2.png" class="d-block w-100" alt="madres">
+                </div>
+                <div class="carousel-item">
+                    <img src="./recursos/imagenes/banner1.jpg" class="d-block w-100" alt="potrancas">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+
+        <!-- Titulo haras -->
+        <div class="titulo-haras">
+            <h1>HARAS BELLO HORIZONTE</h1>
+        </div>
+        <div>
+            <!-- Banner con animacion linkeada -->
+            <h3 class=" animate__animated animate__pulse">Criador de Campeones</h3>
+        </div>
+
+        <!-- Parrafo de inicio -->
+        <div class="parrafo-inicio">
+            <p>En el año 2012, <b>Haras Bello Horizonte</b> , abrio sus puertas criando equinos de alto
+                rendimiendo de la raza Cuarto de
+                Milla, con el objetivo que se desempeñen en diferentes actividades deportivas.
+                Estamos orgullosos en formar ejemplares que destacan en sus actividades por distintas partes del mundo.
+                Visitanos, conoce nuestro haras y forma parte de nuestro equipo.</p>
+
+        </div>
+    </main>
+
+    <footer>
+        <!-- Informacion de contacto -->
+        <div>
+            <ul>
+                <li>harasbellohorizonte@gmail.com</li>
+                <li>(470) 369-8574 </li>
+                <li>601 South 6666 Road Guthrie, Texas 79236</li>
+            </ul>
+        </div>
+        <!-- Redes sociales, solo logo con re direccion -->
+        <div>
+            <a href="#"><img src="./recursos/imagenes/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="./recursos/imagenes/instagram (1).png" alt="Instagram"></a>
+        </div>
+    </footer>
+
+    <!-- link bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
