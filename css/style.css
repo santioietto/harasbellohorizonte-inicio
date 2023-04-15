@@ -466,37 +466,36 @@ footer div a img {
         margin: auto;
     }
 
-}
+    /* Seccion madres */
 
-/* Seccion madres */
+    .grid-madres {
+        grid-template-rows: repeat(10, 1fr);
+        grid-template-areas:
+            "dashin-img dashin-img"
+            "dashin-tb dashin-tb"
+            "ava-tb ava-tb"
+            "ava-img ava-img"
+            "fell-img fell-img"
+            "fell-tb fell-tb"
+            "hempen-tb hempen-tb"
+            "hempen-img hempen-img"
+            "creme-img creme-img"
+            "creme-tb creme-tb";
 
-.grid-madres {
-    grid-template-rows: repeat(10, 1fr);
-    grid-template-areas:
-        "dashin-img dashin-img"
-        "dashin-tb dashin-tb"
-        "ava-tb ava-tb"
-        "ava-img ava-img"
-        "fell-img fell-img"
-        "fell-tb fell-tb"
-        "hempen-tb hempen-tb"
-        "hempen-img hempen-img"
-        "creme-img creme-img"
-        "creme-tb creme-tb";
-
-}
+    }
 
 
 
-/* Seccion productos en venta */
-.prod-venta {
-    margin-left: 35px;
-    grid-template-rows: 1fr;
-    grid-template-areas:
-        "potrillo1"
-        "potrillo2"
-        "potrillo3"
-        "potrillo4"
-        "potrillo5"
-        "potrillo6";
+    /* Seccion productos en venta */
+    .prod-venta {
+        margin-left: 35px;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "potrillo1"
+            "potrillo2"
+            "potrillo3"
+            "potrillo4"
+            "potrillo5"
+            "potrillo6";
+    }
 }
