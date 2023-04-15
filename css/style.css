@@ -467,8 +467,8 @@ footer div a img {
     }
 
     /* Seccion madres */
-
     .grid-madres {
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(10, 1fr);
         grid-template-areas:
             "dashin-img dashin-img"
@@ -489,7 +489,8 @@ footer div a img {
     /* Seccion productos en venta */
     .prod-venta {
         margin-left: 35px;
-        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-areas:
             "potrillo1"
             "potrillo2"
