@@ -322,7 +322,7 @@ footer div a img {
 
 .potrillo6 {
     grid-area: potrillo6;
-    width: 500px;
+    min-width: 500px;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -489,7 +489,7 @@ footer div a img {
     /* Seccion productos en venta */
     .prod-venta {
         margin-left: 35px;
-        grid-template-columns: 1fr;
+        grid-template-columns: 30rem;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-areas:
             "potrillo1"
@@ -498,5 +498,59 @@ footer div a img {
             "potrillo4"
             "potrillo5"
             "potrillo6";
+            
+    }
+    .potrillo1 {
+        
+        /* width: 500px; */
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    
+    .potrillo2 {
+        
+        width: 500px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+    
+    .potrillo3 {
+       
+        width: 500px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+    
+    .potrillo4 {
+        
+        max-width: 300px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    
+    }
+    
+    .potrillo5 {
+        
+        width: 500px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+    
+    .potrillo6 {
+        
+        min-width: 50vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
     }
 }
